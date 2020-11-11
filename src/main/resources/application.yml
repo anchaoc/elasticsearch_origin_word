@@ -1,0 +1,10 @@
+server:
+  port: 8989
+  servlet:
+    context-path: /es
+
+#直接读取静态资源
+spring:
+  resources:
+    static-locations: classpath:webapp/
+
